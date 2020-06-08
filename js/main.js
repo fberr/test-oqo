@@ -1,4 +1,3 @@
-var result = [];
 var markers = [];
 
 $.ajax({
