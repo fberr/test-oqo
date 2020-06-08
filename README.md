@@ -8,4 +8,4 @@ Para la visualización del mapa ocupa la api de maps, y creo una funcion para p
 
 Actualmente la api de google maps cobra por su uso, se debe ingresar una cta cte, por eso en el proyecto aparecen unas mensajes 'solo uso para desarrollo'.
 
-En el armado del proyecto se utilizó boostrap 4, jquery y un llamado a google fonts para la fuente utilizada en el proyecto 'Lato'.
+En el armado del proyecto se utilizó boostrap 4, jquery y un llamado a google fonts para la fuente utilizada en el proyecto 'Lato'. La estructura quedo responsiva.
