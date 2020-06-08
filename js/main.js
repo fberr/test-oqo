@@ -10,7 +10,7 @@ $.ajax({
         $.each(result, function(key, value) {
             $('#lista-concesionarios').append('<div class="form-check"><input type="checkbox" id="'+value.slug+'" class="check-con form-check-input" name="'+value.slug+'" value="'+value.slug+'"><label class="form-check-label" for="'+value.slug+'">' + value.title.rendered.toLowerCase() +'</label></div>');
 
-            markers.push({title: value["title"].rendered, slug: value.slug, lat: value["cn-map"].lat, lng: value["cn-map"].lng, icon: 'http://maps.google.com/mapfiles/ms/micons/red-dot.png' });
+            markers.push({title: value["title"].rendered, slug: value.slug, lat: value["cn-map"].lat, lng: value["cn-map"].lng, icon: 'https://maps.google.com/mapfiles/ms/micons/red-dot.png' });
         });
 
     },
@@ -47,13 +47,13 @@ $(".check-con").on( 'change', function() {
     if( $(this).is(':checked') ) {
         for (var i = 0; i < markers.length; i++) {
             if($(this).val() == markers[i].slug ) {
-               markers[i].marker.setIcon('http://maps.google.com/mapfiles/ms/micons/blue-dot.png');
+               markers[i].marker.setIcon('https://maps.google.com/mapfiles/ms/micons/blue-dot.png');
             } 
         }
     } else {
         for (var i = 0; i < markers.length; i++) {
           	if($(this).val() == markers[i].slug ) {
-            	markers[i].marker.setIcon('http://maps.google.com/mapfiles/ms/micons/red-dot.png');
+            	markers[i].marker.setIcon('https://maps.google.com/mapfiles/ms/micons/red-dot.png');
             }
         }
     }
