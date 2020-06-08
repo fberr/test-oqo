@@ -1,0 +1,160 @@
+html, body {
+     height: 100%;
+     margin: 0;
+     padding: 0;
+     font-family: 'Lato', sans-serif;
+}
+section {
+     max-width: 930px;
+     margin: 0 auto;
+}
+ #map {
+     height: 350px;
+     width: 100%;
+}
+ nav.navbar-verde {
+     background-color: #36C63C;
+     padding: .7rem 1rem;
+}
+ .share {
+     color: #fff;
+     font-size: 24px;
+}
+ .share:hover {
+     color: #fff;
+     text-decoration: none;
+}
+ .titulo {
+     font-size: 28px;
+}
+ .titulo-2 {
+     font-size: 24px;
+}
+ .btn-turclub {
+     font-size: 30px;
+     background-color: #269735;
+     color: #fff;
+     border-radius: 0;
+     max-width: 300px;
+     width: 100%;
+     border: none;
+}
+ .banner {
+     background-image: url(../images/bg-2.png);
+     height: 600px;
+     background-repeat: no-repeat;
+}
+ .banner-full {
+     background-image: url(../images/bg-full.jpg);
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-size: 1280px 915px;
+     height: 915px;
+}
+ .logos {
+     border-top: 1px solid #ccc;
+     border-bottom: 1px solid #ccc;
+}
+ .destinos {
+     margin-bottom: 100px;
+}
+ .destinos .col-md-4 {
+     padding-right: 0;
+}
+ .destinos .col-md-8 {
+     padding-left: 0;
+}
+ .box-destinos {
+     border: 1px solid ;
+     height: 350px;
+}
+ #lista-concesionarios {
+     overflow-y: auto;
+     height: 300px;
+     padding: 5px 10px;
+}
+ .box-seleccionar {
+     background-color: #269735;
+     color: #fff;
+     padding: 6px 10px;
+}
+ .form-check-label {
+     font-size: 24px;
+     text-transform: capitalize;
+     padding-left: 12px;
+}
+ .check-con {
+     width: 25px;
+     height: 25px;
+}
+ .lista-icono {
+     width: 100%;
+     display: -webkit-box;
+     display: -moz-box;
+     display: -webkit-flex;
+     display: -ms-flexbox;
+     display: flex;
+     margin-bottom: 10px;
+}
+ .lista-icono img {
+     height: 100%;
+     padding-right: 10px;
+}
+footer {
+     background-color: #3F3F3F;
+     color: #fff;
+     padding-top: 30px;
+     padding-bottom: 40px;
+}
+ footer .container {
+     max-width: 930px;
+}
+ footer ul {
+     list-style: none;
+     padding: 0;
+}
+ footer ul li a:hover {
+     color: #269735;
+}
+ p.subtitulo {
+     font-size: 13px;
+     margin-top: 12px;
+}
+ .subtitulo.mt-s {
+     margin-top: 45px;
+}
+ .lista-icono span, footer ul li a {
+     font-size: 12px;
+     color: #fff;
+}
+ .pl-s {
+     padding-left: 70px;
+}
+ @media (max-width: 992px) {
+     #lista-concesionarios {
+         height: 268px;
+    }
+}
+ @media (max-width: 768px) {
+     #lista-concesionarios {
+         height: 300px;
+    }
+     .destinos .col-md-4 {
+         padding-right: 15px;
+    }
+     .destinos .col-md-8 {
+         padding-left: 15px;
+    }
+     .banner-full {
+         background-size: cover;
+         height: 560px;
+    }
+     .pl-s {
+         padding-left: 15px;
+    }
+}
+ @media (max-width: 520px) {
+     .banner-full {
+         height: 440px;
+    }
+}
